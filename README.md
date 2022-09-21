@@ -25,7 +25,7 @@ $ yarn install
 Build the wasm module:
 
 ```sh
-$ wasm-pack build ./src/hello_wasm --target bundler
+$ wasm-pack build ./src/hello_wasm --target web
 ```
 
 Start up Vite's local web server:

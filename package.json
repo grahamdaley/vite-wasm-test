@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "wasm": "wasm-pack build ./src/hello_wasm --target bundler",
+    "wasm": "wasm-pack build ./src/hello_wasm --target web",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
